@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Muhammad Faiz Arrasyid</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header dan Navigasi -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>My<span>Portfolio</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Sertifikat</a></li>
+            <li><a href="#achievements">Pencapaian</a></li>
+            <li>
+              <!-- Toggle Switch -->
+              <label class="switch">
+                <input type="checkbox" id="checkbox" />
+                <span class="slider">
+                  <div class="star star_1"></div>
+                  <div class="star star_2"></div>
+                  <div class="star star_3"></div>
+                  <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+                    <path
+                      transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+                      fill="#fff"
+                      d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+                    ></path>
+                  </svg>
+                </span>
+              </label>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section Biografi -->
+    <section id="home" class="biography">
+      <div class="container">
+        <div class="bio-content">
+          <div class="bio-image">
+            <img src="src/img/foto.png" alt="Foto Profil" />
+          </div>
+          <div class="bio-text">
+            <h2>Muhammad Faiz Arrasyid</h2>
+            <h3>Fullstack Developer | Backend Developer | Data Analyst</h3>
+            <div class="social-links">
+              <a href="https://github.com/mfzarr" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://linkedin.com/in/muhfaizarr" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="mailto:muhfaizarr17@gmail.com" target="_blank"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </div>
+            <div class="skills">
+              <div class="skill">HTML5</div>
+              <div class="skill">CSS3</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">PHP</div>
+              <div class="skill">Python</div>
+              <div class="skill">Laravel</div>
+              <div class="skill">Livewire</div>
+              <div class="skill">Bootstrap</div>
+              <div class="skill">Codeigniter</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projects -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Proyek Terbaru</h2>
+
+        <!-- Project Item 1 (Image Left) -->
+        <div class="project-item">
+          <div class="project-image">
+            <img src="src/img/project_1.png" alt="Project 1" />
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Website</h3>
+            <p>
+              Aplikasi berbasis web yang berfungsi untuk mencatat, mengelola,
+              dan menghasilkan laporan keuangan secara otomatis bagi perusahaan
+              dagang. Fitur utama meliputi pencatatan transaksi penjualan dan
+              pembelian, pengelolaan stok barang, pembukuan otomatis, serta
+              penyusunan laporan keuangan seperti neraca, laba rugi, dan arus
+              kas. Aplikasi ini dikembangkan untuk membantu efisiensi dan
+              akurasi proses akuntansi di perusahaan dagang skala UMKM.
+            </p>
+            <div class="project-tags">
+              <span>Laravel 10</span>
+              <span>Bootstrap 5</span>
+              <span>CSS3</span>
+              <span>Node.js</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://porto.siacloudpro.com"
+                class="btn"
+                target="_blank"
+                >Lihat Demo</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Item 2 (Image Right) -->
+        <div class="project-item reverse">
+          <div class="project-info">
+            <h3>Dashboard Analytics</h3>
+            <p>
+              Dashboard untuk visualisasi data bisnis dengan grafik interaktif
+              dan laporan real-time. Dibangun dengan React.js dan D3.js untuk
+              visualisasi data.
+            </p>
+            <div class="project-tags">
+              <span>React.js</span>
+              <span>D3.js</span>
+              <span>Firebase</span>
+              <span>Material UI</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn">Lihat Demo</a>
+              <a href="#" class="btn btn-outline">Source Code</a>
+            </div>
+          </div>
+          <div class="project-image">
+            <img src="/api/placeholder/600/400" alt="Project 2" />
+          </div>
+        </div>
+
+        <!-- Project Item 3 (Image Left) -->
+        <div class="project-item">
+          <div class="project-image">
+            <img src="/api/placeholder/600/400" alt="Project 3" />
+          </div>
+          <div class="project-info">
+            <h3>Aplikasi Manajemen Tugas</h3>
+            <p>
+              Aplikasi web untuk manajemen tugas dengan fitur drag-and-drop,
+              pengaturan prioritas, dan notifikasi. Dibuat dengan Vue.js dan
+              Firebase.
+            </p>
+            <div class="project-tags">
+              <span>Vue.js</span>
+              <span>Firebase</span>
+              <span>Vuetify</span>
+              <span>PWA</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn">Lihat Demo</a>
+              <a href="#" class="btn btn-outline">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Certificates -->
+    <section id="certificates" class="certificates">
+      <div class="container">
+        <h2 class="section-title">Sertifikat</h2>
+
+        <div class="carousel-container">
+          <div class="carousel-wrapper">
+            <div class="carousel">
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif1.jpg" alt="Sertifikat 1" />
+                  <h3>Mahir Membuat Website Dengan Laravel 9</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif2.jpg" alt="Sertifikat 2" />
+                  <h3>Fundamental Python</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif4.jpg" alt="Sertifikat 3" />
+                  <h3>Fundamental Excel</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif5.jpg" alt="Sertifikat 4" />
+                  <h3>Fundamental Algoritma</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif6.jpg" alt="Sertifikat 5" />
+                  <h3>Excel Intermediate</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif7.jpg" alt="Sertifikat 6" />
+                  <h3>Fundamental Database MySql</h3>
+                  <p>Coding Studio - 2024</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif8.jpg" alt="Sertifikat 7" />
+                  <h3>IT Support Google</h3>
+                  <p>Coursera - 2022</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif9.jpg" alt="Sertifikat 8" />
+                  <h3>Google UX Design</h3>
+                  <p>Coursera - 2022</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="certificate">
+                  <img src="src/img/sertif10.jpg" alt="Sertifikat 9" />
+                  <h3>Intro To Data Analytics</h3>
+                  <p>RevoU - 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-dots">
+              <!-- Dots will be added by JavaScript -->
+            </div>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+      <div class="container">
+        <h2 class="section-title">Pencapaian</h2>
+
+        <div class="carousel-container">
+          <div class="carousel-wrapper">
+            <div class="carousel">
+              <div class="carousel-item">
+                <div class="achievement-item" data-pdf="src/pdf/inmeet.pdf">
+                  <img src="src/img/inmeet.png" alt="Pencapaian 1" />
+                  <h3>HKI Product TransTRACK InMeeT</h3>
+                  <p>2025</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="achievement-item" data-pdf="src/pdf/piec.pdf">
+                  <img src="src/img/piec.png" alt="Pencapaian 2" />
+                  <h3>HKI Product TransTRACK E-CenT</h3>
+                  <p>2025</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div
+                  class="achievement-item"
+                  data-pdf="achievements/sertifikat3.pdf"
+                >
+                  <img src="/api/placeholder/300/200" alt="Pencapaian 3" />
+                  <h3>Google Developer Expert</h3>
+                  <p>2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-dots">
+              <!-- Dots will be added by JavaScript -->
+            </div>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tambahkan modal untuk PDF viewer -->
+    <div id="pdfModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contact">
+            <h3>Hubungi Saya</h3>
+            <p>
+              Jangan ragu untuk menghubungi saya melalui media sosial berikut:
+            </p>
+
+            <div class="contact-links">
+              <a
+                href="https://linkedin.com/in/muhfaizarr"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+
+              <a
+                href="https://instagram.com/muhfaiz_17"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+
+              <a
+                href="https://wa.me/6289652395345"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+
+              <a
+                href="https://github.com/mfzarr"
+                target="_blank"
+                class="contact-item"
+              >
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; 2025 Portfolio by Muhammad Faiz Arrasyid. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
