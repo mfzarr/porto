@@ -236,7 +236,7 @@ nav ul li a:hover::after {
 .project-image,
 .project-info {
   flex: 1;
-  min-width: 300px;
+  min-width: 30px;
 }
 
 .project-image img {
@@ -737,7 +737,7 @@ body.dark .achievement-item {
 
 .achievement-item img {
   width: 100%;
-  height: 200px;
+  height: 200%;
   object-fit: cover;
   margin-bottom: 15px;
 }
