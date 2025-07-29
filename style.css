@@ -136,7 +136,7 @@ nav ul li a:hover::after {
 
 .bio-image {
   flex: 1;
-  min-width: 300px;
+  min-width: 100px;
   text-align: center;
 }
 
